@@ -14,7 +14,7 @@ def main():
         "signature":"signature_sample",
     }
     
-    url = "https://block-test5/transaction_pool.onrender.com/"
+    url = "https://block-test7/transaction_pool.onrender.com/"
     res = requests.post(url,json.dumps(transaction))
     
     """
